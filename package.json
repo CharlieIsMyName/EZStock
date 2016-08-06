@@ -1,0 +1,17 @@
+{
+  "name": "EZstock",
+  "version": "0.0.0",
+  "description": "A collaborative dashboard of real time stock data",
+  "main": "server.js",
+  "repository": "",
+  "author": "Chenyu Wang <charliewangchenyu@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "~3.2.4",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.5",
+    "monk": "^3.1.1",
+    "request": "^2.74.0",
+    "socket.io": "~0.9.14"
+  }
+}

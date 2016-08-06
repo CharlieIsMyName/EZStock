@@ -1,0 +1,20 @@
+head
+    script(src="https://code.jquery.com/jquery-2.2.4.min.js")
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel='stylesheet prefetch')
+    link(href="css/client.css" rel='stylesheet prefetch')
+    script(src="/socket.io/socket.io.js")
+    script(src="js/client.js")
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js')
+    title EZStock - Online Cooperative Stock Viewer
+
+body
+    div(id="graph")
+    div(id="codes" class="row")
+    form(id="form")
+        div(class="searchBar")
+            input(id="newCode" class="mainInput" width="100px")
+            div(id="newCodeSubmit" class="btn btn-success mainSubmit")
+                span(class="glyphicon glyphicon-search")
+            input(type="submit" style="display: none")
+    
+
