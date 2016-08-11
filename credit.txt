@@ -1,0 +1,1 @@
+Thanks to the stock data API from markitondemand.com I am able to get real time stock market data, which made this app possible!
